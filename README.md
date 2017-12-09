@@ -15,6 +15,29 @@ Parameters|Lambda|Direct|Reflection
 ## Requirements
 lambda-factory requires Java 1.8 or later.
 
+## Maven
+lambda-factory is available on JitPack. Just add
+the following maven repository to your pom.xml:
+
+```xml
+<repositories>
+  <repository>
+	  <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+```
+
+Then add the following dependency:
+
+```xml
+<dependency>
+  <groupId>com.github.IntellectualSites</groupId>
+  <artifactId>lambda-factory</artifactId>
+  <version>2.0.2-SNAPSHOT</version>
+</dependency>
+```
+
 ## Using lambda-factory
 Let's say we have a class called `MyClass`, which defines the following methods:  
 ```java
